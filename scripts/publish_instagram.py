@@ -80,7 +80,10 @@ def build_caption(product: dict) -> str:
     if product.get("colors"):
         lines.append(f"Цвета: {product['colors']}")
 
-    lines += ["", f"Заказать: {CONFIG['order_contact']}"]
+    contact_line = CONFIG.get("instagram", {}).get(
+        "order_contact_text", f"Заказать: {CONFIG['order_contact']}"
+    )
+    lines += ["", contact_line]
 
     keywords = product.get("keywords", "")
     if keywords:
