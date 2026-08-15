@@ -31,7 +31,7 @@
   },
 
   "instagram": {
-    "posts_per_day": 3
-}
-
+    "posts_per_day": 3,
+    "order_contact_text": "Заказать: пишите в Direct или в Telegram @nucca_store"
+  }
 }
