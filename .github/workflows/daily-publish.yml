@@ -36,6 +36,9 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python scripts/publish.py
 
+      - name: Подмешать нашид в видео для Instagram
+        run: python scripts/mix_audio.py
+
       - name: Сохранить видео в репозиторий (чтобы GitHub Pages их раздавал)
         run: |
           git config user.name "nucca-bot"
