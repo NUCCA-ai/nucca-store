@@ -1,6 +1,46 @@
 [
-    { "id": "bag-001", "status": "published", "video": "media/bag-001-loewe.mp4", "category": "bag", "price_cny": null, "title_ru": "", "caption_used": "Цена по запросу / Заказать: @nucca_store", "note": "опубликовано вручную, без цены" },
-    { "id": "bag-002", "status": "published", "video": "media/bag-002.mp4", "category": "bag", "price_cny": null, "title_ru": "", "caption_used": "Цена по запросу / Заказать: @nucca_store", "note": "опубликовано вручную, без цены" },
-  { "id": "bag-003", "status": "published", "video": "media/bag-003.mp4", "category": "bag", "price_cny": null, "title_ru": "", "caption_used": "Цена по запросу / Заказать: @nucca_store", "note": "опубликовано вручную, без цены" },
-  { "id": "bag-004", "status": "published", "video": "media/bag-004.mp4", "category": "bag", "price_cny": null, "title_ru": "", "caption_used": "Цена по запросу / Заказать: @nucca_store", "note": "опубликовано вручную, без цены" }
+  {
+    "id": "bag-001",
+    "status": "published",
+    "video": "media/bag-001-loewe.mp4",
+    "category": "bag",
+    "price_cny": null,
+    "title_ru": "",
+    "caption_used": "Цена по запросу / Заказать: @nucca_store",
+    "note": "опубликовано вручную, без цены",
+    "thumb": "thumbs/bag-001.jpg"
+  },
+  {
+    "id": "bag-002",
+    "status": "published",
+    "video": "media/bag-002.mp4",
+    "category": "bag",
+    "price_cny": null,
+    "title_ru": "",
+    "caption_used": "Цена по запросу / Заказать: @nucca_store",
+    "note": "опубликовано вручную, без цены",
+    "thumb": "thumbs/bag-002.jpg"
+  },
+  {
+    "id": "bag-003",
+    "status": "published",
+    "video": "media/bag-003.mp4",
+    "category": "bag",
+    "price_cny": null,
+    "title_ru": "",
+    "caption_used": "Цена по запросу / Заказать: @nucca_store",
+    "note": "опубликовано вручную, без цены",
+    "thumb": "thumbs/bag-003.jpg"
+  },
+  {
+    "id": "bag-004",
+    "status": "published",
+    "video": "media/bag-004.mp4",
+    "category": "bag",
+    "price_cny": null,
+    "title_ru": "",
+    "caption_used": "Цена по запросу / Заказать: @nucca_store",
+    "note": "опубликовано вручную, без цены",
+    "thumb": "thumbs/bag-004.jpg"
+  }
 ]
