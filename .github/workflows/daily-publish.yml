@@ -1,4 +1,4 @@
-name: Ежедневная публикация в Telegram
+name: Ежедневная публикация в Telegram и Instagram
 
 on:
   schedule:
@@ -31,10 +31,33 @@ jobs:
       - name: Сделать обложки для видео
         run: python scripts/make_thumbs.py
 
-      - name: Опубликовать товары
+      - name: Опубликовать товары в Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python scripts/publish.py
+
+      - name: Сохранить видео в репозиторий (чтобы GitHub Pages их раздавал)
+        run: |
+          git config user.name "nucca-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "Изменений нет."
+          else
+            git commit -m "Telegram: публикация $(date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Подождать пока GitHub Pages обновится
+        if: ${{ secrets.IG_ACCESS_TOKEN != '' }}
+        run: sleep 90
+
+      - name: Опубликовать Reels в Instagram
+        if: ${{ secrets.IG_ACCESS_TOKEN != '' }}
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
+        run: python scripts/publish_instagram.py
 
       - name: Сохранить результат
         run: |
