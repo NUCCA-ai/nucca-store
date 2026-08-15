@@ -63,7 +63,13 @@ def mix(video_path: pathlib.Path, audio_path: pathlib.Path, out_path: pathlib.Pa
             "-i", str(audio_path),
             "-filter_complex", filt,
             "-map", "0:v:0", "-map", "[a]",
-            "-c:v", "copy", "-c:a", "aac", "-shortest",
+            # Видео перекодируем (не copy): у части исходников от поставщика
+            # переменный fps (VFR) — Instagram Graph API часто не может
+            # обработать такое видео и отдаёт status_code=ERROR без деталей.
+            # Принудительно приводим к постоянному fps.
+            "-c:v", "libx264", "-r", "30", "-fps_mode", "cfr",
+            "-pix_fmt", "yuv420p", "-preset", "veryfast", "-crf", "20",
+            "-c:a", "aac", "-shortest",
             "-movflags", "+faststart",
             str(out_path),
         ],
