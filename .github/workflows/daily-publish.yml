@@ -49,11 +49,9 @@ jobs:
           fi
 
       - name: Подождать пока GitHub Pages обновится
-        if: ${{ secrets.IG_ACCESS_TOKEN != '' }}
         run: sleep 90
 
       - name: Опубликовать Reels в Instagram
-        if: ${{ secrets.IG_ACCESS_TOKEN != '' }}
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
