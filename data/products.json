@@ -1,52 +1,52 @@
 [
-  {
-    "id": "bag-001",
-    "status": "published",
-    "video": "media/bag-001-loewe.mp4",
-    "category": "bag",
-    "price_cny": null,
-    "title_ru": "",
-    "caption_used": "Цена по запросу / Заказать: @nucca_store",
-    "note": "опубликовано вручную, без цены",
-    "thumb": "thumbs/bag-001.jpg",
-    "instagram_status": "published",
-    "instagram_url": "https://www.instagram.com/reel/DcE7CJNicOs/"
-  },
-  {
-    "id": "bag-002",
-    "status": "published",
-    "video": "media/bag-002.mp4",
-    "category": "bag",
-    "price_cny": null,
-    "title_ru": "",
-    "caption_used": "Цена по запросу / Заказать: @nucca_store",
-    "note": "опубликовано вручную, без цены",
-    "thumb": "thumbs/bag-002.jpg",
-    "instagram_status": "published",
-    "instagram_url": "https://www.instagram.com/reel/DcE7LYACJc9/"
-  },
-  {
-    "id": "bag-003",
-    "status": "published",
-    "video": "media/bag-003.mp4",
-    "category": "bag",
-    "price_cny": null,
-    "title_ru": "",
-    "caption_used": "Цена по запросу / Заказать: @nucca_store",
-    "note": "опубликовано вручную, без цены",
-    "thumb": "thumbs/bag-003.jpg",
-    "instagram_status": "published",
-    "instagram_url": "https://www.instagram.com/reel/DcE7Q5iDG1_/"
-  },
-  {
-    "id": "bag-004",
-    "status": "published",
-    "video": "media/bag-004.mp4",
-    "category": "bag",
-    "price_cny": null,
-    "title_ru": "",
-    "caption_used": "Цена по запросу / Заказать: @nucca_store",
-    "note": "опубликовано вручную, без цены",
-    "thumb": "thumbs/bag-004.jpg"
-  }
+{
+"id": "bag-001",
+"status": "published",
+"video": "media/bag-001-loewe.mp4",
+"category": "bag",
+"price_cny": null,
+"title_ru": "",
+"caption_used": "Цена по запросу / Заказать: @nucca_store",
+"note": "опубликовано вручную, без цены",
+"thumb": "thumbs/bag-001.jpg",
+"instagram_status": "published",
+"instagram_url": "https://www.instagram.com/reel/DcE7CJNicOs/"
+},
+{
+"id": "bag-002",
+"status": "published",
+"video": "media/bag-002.mp4",
+"category": "bag",
+"price_cny": null,
+"title_ru": "",
+"caption_used": "Цена по запросу / Заказать: @nucca_store",
+"note": "опубликовано вручную, без цены",
+"thumb": "thumbs/bag-002.jpg",
+"instagram_status": "published",
+"instagram_url": "https://www.instagram.com/reel/DcE7LYACJc9/"
+},
+{
+"id": "bag-003",
+"status": "published",
+"video": "media/bag-003.mp4",
+"category": "bag",
+"price_cny": null,
+"title_ru": "",
+"caption_used": "Цена по запросу / Заказать: @nucca_store",
+"note": "опубликовано вручную, без цены",
+"thumb": "thumbs/bag-003.jpg",
+"instagram_status": "published",
+"instagram_url": "https://www.instagram.com/reel/DcE7Q5iDG1_/"
+},
+{
+"id": "bag-004",
+"status": "published",
+"video": "media/bag-004.mp4",
+"category": "bag",
+"price_cny": null,
+"title_ru": "",
+"caption_used": "Цена по запросу / Заказать: пишите в Direct или в Telegram @nucca_store",
+"note": "опубликовано вручную, без цены",
+"thumb": "thumbs/bag-004.jpg"
+}
 ]
