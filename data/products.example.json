@@ -1,0 +1,17 @@
+[
+  {
+    "id": "demo-001",
+    "status": "pending",
+    "video": "media/demo-001.mp4",
+    "category": "shoes",
+    "price_cny": 120,
+    "title_ru": "Кроссовки женские, натуральная кожа",
+    "title_en": "Women's leather sneakers — minimal beige",
+    "description_ru": "Мягкая кожа, лёгкая подошва, удобная колодка. Подходят на каждый день.",
+    "pinterest_description": "Minimalist beige leather sneakers for everyday modest outfits. Comfortable lightweight sole, soft genuine leather.",
+    "keywords": "beige sneakers, modest outfit shoes, leather sneakers women",
+    "board": "Nucca Store",
+    "sizes": "36-41",
+    "colors": "бежевый, чёрный"
+  }
+]

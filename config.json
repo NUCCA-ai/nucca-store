@@ -1,0 +1,32 @@
+{
+  "channel": "@nucca_store",
+  "order_contact": "@nucca_store",
+
+  "rate_source": "https://t.me/s/elvnpay",
+  "rate_buffer": 0.30,
+  "rate_fallback": 13.60,
+  "rate_min": 9.0,
+  "rate_max": 22.0,
+
+  "delivery_per_kg": 650,
+  "markup_percent": 60,
+  "round_down_to": 100,
+
+  "posts_per_day": 5,
+
+  "weights": {
+    "shoes": 1.2,
+    "dress": 0.6,
+    "abaya": 0.6,
+    "outerwear": 1.5,
+    "scarf": 0.2,
+    "bag": 0.8,
+    "accessory": 0.3,
+    "default": 0.7
+  },
+
+  "pinterest": {
+    "default_board": "Nucca Store",
+    "pages_base_url": "https://nucca-ai.github.io/nucca-store"
+  }
+}
