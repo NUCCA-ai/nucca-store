@@ -28,5 +28,10 @@
   "pinterest": {
     "default_board": "Nucca Store",
     "pages_base_url": "https://nucca-ai.github.io/nucca-store"
-  }
+  },
+
+  "instagram": {
+    "posts_per_day": 3
+}
+
 }
