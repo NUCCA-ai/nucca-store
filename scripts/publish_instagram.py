@@ -99,7 +99,15 @@ def build_caption(product: dict) -> str:
 
 
 def video_url(product: dict) -> str:
-    return f"{PAGES_BASE}/{product['video']}"
+    # Если scripts/mix_audio.py успел подготовить версию с нашидом
+    # (media/<id>-ig.mp4), берём её — в оригинальном видео может быть
+    # чужая фоновая музыка поставщика, а в Instagram это использовать нельзя.
+    video_path = ROOT / product["video"]
+    ig_path = video_path.with_name(video_path.stem + "-ig.mp4")
+    video_rel = product["video"]
+    if ig_path.exists():
+        video_rel = str(ig_path.relative_to(ROOT))
+    return f"{PAGES_BASE}/{video_rel}"
 
 
 def create_container(video_link: str, caption: str) -> str:
