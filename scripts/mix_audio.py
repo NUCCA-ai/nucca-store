@@ -64,6 +64,7 @@ def mix(video_path: pathlib.Path, audio_path: pathlib.Path, out_path: pathlib.Pa
             "-filter_complex", filt,
             "-map", "0:v:0", "-map", "[a]",
             "-c:v", "copy", "-c:a", "aac", "-shortest",
+            "-movflags", "+faststart",
             str(out_path),
         ],
         check=True, capture_output=True, text=True,
