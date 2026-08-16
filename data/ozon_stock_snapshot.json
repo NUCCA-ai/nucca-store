@@ -1,0 +1,254 @@
+{
+  "black1": {
+    "name": "black1",
+    "present": 0
+  },
+  "grey1": {
+    "name": "grey1",
+    "present": 0
+  },
+  "brown1": {
+    "name": "brown1",
+    "present": 0
+  },
+  "grafit1": {
+    "name": "grafit1",
+    "present": 0
+  },
+  "palantinblack4": {
+    "name": "palantinblack4",
+    "present": 5
+  },
+  "gorde1": {
+    "name": "gorde1",
+    "present": 3
+  },
+  "gorde2": {
+    "name": "gorde2",
+    "present": 1
+  },
+  "palantin45": {
+    "name": "palantin45",
+    "present": 0
+  },
+  "palantin21rose": {
+    "name": "palantin21rose",
+    "present": 0
+  },
+  "palantin19bledrose": {
+    "name": "palantin19bledrose",
+    "present": 0
+  },
+  "palantin51darkkhaki": {
+    "name": "palantin51darkkhaki",
+    "present": 1
+  },
+  "palantin41siren": {
+    "name": "palantin41siren",
+    "present": 0
+  },
+  "palantin12brown": {
+    "name": "palantin12brown",
+    "present": 0
+  },
+  "palantin9grafit": {
+    "name": "palantin9grafit",
+    "present": 3
+  },
+  "palantin3darkblue": {
+    "name": "palantin3darkblue",
+    "present": 4
+  },
+  "palantin50bolot": {
+    "name": "palantin50bolot",
+    "present": 3
+  },
+  "palantin40skyblue": {
+    "name": "palantin40skyblue",
+    "present": 0
+  },
+  "palantin15beige": {
+    "name": "palantin15beige",
+    "present": 1
+  },
+  "palantin8darkgrey": {
+    "name": "palantin8darkgrey",
+    "present": 3
+  },
+  "palantin11greybrown": {
+    "name": "palantin11greybrown",
+    "present": 0
+  },
+  "palantin20dustypink": {
+    "name": "palantin20dustypink",
+    "present": 3
+  },
+  "palantin7grey": {
+    "name": "palantin7grey",
+    "present": 0
+  },
+  "palantin44blue": {
+    "name": "palantin44blue",
+    "present": 2
+  },
+  "palantin16darkbeige": {
+    "name": "palantin16darkbeige",
+    "present": 0
+  },
+  "pal49lightgreykhaki": {
+    "name": "pal49lightgreykhaki",
+    "present": 0
+  },
+  "palantin48goldbeige": {
+    "name": "palantin48goldbeige",
+    "present": 0
+  },
+  "palantin2darkblue": {
+    "name": "palantin2darkblue",
+    "present": 4
+  },
+  "tyedye1rose": {
+    "name": "tyedye1rose",
+    "present": 0
+  },
+  "tyedye2blue": {
+    "name": "tyedye2blue",
+    "present": 0
+  },
+  "tyedye3grey": {
+    "name": "tyedye3grey",
+    "present": 0
+  },
+  "tyedye4purple": {
+    "name": "tyedye4purple",
+    "present": 0
+  },
+  "tyedye5white": {
+    "name": "tyedye5white",
+    "present": 0
+  },
+  "Gorde668": {
+    "name": "Gorde668",
+    "present": 0
+  },
+  "Gorde700": {
+    "name": "Gorde700",
+    "present": 0
+  },
+  "Gorde667": {
+    "name": "Gorde667",
+    "present": 0
+  },
+  "Gorde669": {
+    "name": "Gorde669",
+    "present": 0
+  },
+  "Gorde665": {
+    "name": "Gorde665",
+    "present": 0
+  },
+  "Gorde664": {
+    "name": "Gorde664",
+    "present": 0
+  },
+  "Gorde2short": {
+    "name": "Gorde2short",
+    "present": 0
+  },
+  "Gorde1short": {
+    "name": "Gorde1short",
+    "present": 4
+  },
+  "Gorde1grafit": {
+    "name": "Gorde1grafit",
+    "present": 0
+  },
+  "Gorde2grafit": {
+    "name": "Gorde2grafit",
+    "present": 0
+  },
+  "Palan52darkchocolate": {
+    "name": "Palan52darkchocolate",
+    "present": 2
+  },
+  "PALAN53MILKCHOCOLATE": {
+    "name": "PALAN53MILKCHOCOLATE",
+    "present": 1
+  },
+  "80Palan-khaki": {
+    "name": "80Palan-khaki",
+    "present": 1
+  },
+  "Hijab_1black": {
+    "name": "Hijab_1black",
+    "present": 10
+  },
+  "PALAN1WHITE": {
+    "name": "PALAN1WHITE",
+    "present": 2
+  },
+  "PREMIUM-KHAKI": {
+    "name": "PREMIUM-KHAKI",
+    "present": 0
+  },
+  "PREMIUM-BROWNGREY": {
+    "name": "PREMIUM-BROWNGREY",
+    "present": 2
+  },
+  "PREMIUM-BEIGE": {
+    "name": "PREMIUM-BEIGE",
+    "present": 1
+  },
+  "LEN-BLACK1": {
+    "name": "LEN-BLACK1",
+    "present": 3
+  },
+  "LEN-BLUE3": {
+    "name": "LEN-BLUE3",
+    "present": 3
+  },
+  "LEN-ROSE5": {
+    "name": "LEN-ROSE5",
+    "present": 2
+  },
+  "LEN-DARKGREEN": {
+    "name": "LEN-DARKGREEN",
+    "present": 2
+  },
+  "LEN-DARKGREY": {
+    "name": "LEN-DARKGREY",
+    "present": 3
+  },
+  "LEN-COFFEE": {
+    "name": "LEN-COFFEE",
+    "present": 3
+  },
+  "LEN-BROWN": {
+    "name": "LEN-BROWN",
+    "present": 2
+  },
+  "LEN-SILVERGREY": {
+    "name": "LEN-SILVERGREY",
+    "present": 3
+  },
+  "LEN-DARKBEIGE": {
+    "name": "LEN-DARKBEIGE",
+    "present": 3
+  },
+  "LEN-BLUETUMAN": {
+    "name": "LEN-BLUETUMAN",
+    "present": 3
+  },
+  "LEN-TAN": {
+    "name": "LEN-TAN",
+    "present": 2
+  },
+  "LEN-BEIGE": {
+    "name": "LEN-BEIGE",
+    "present": 2
+  },
+  "LEN-GREY": {
+    "name": "LEN-GREY",
+    "present": 3
+  }
+}
