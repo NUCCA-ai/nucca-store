@@ -1,0 +1,43 @@
+name: Забор новых товаров из личных сообщений боту
+
+on:
+  schedule:
+    # каждые 2 часа
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Забрать репозиторий
+        uses: actions/checkout@v4
+
+      - name: Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Установить зависимости
+        run: pip install requests
+
+      - name: Проверить личные сообщения боту
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/pull_telegram_inbox.py
+
+      - name: Сохранить результат
+        run: |
+          git config user.name "nucca-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "Изменений нет."
+          else
+            git commit -m "Новые заявки из личных сообщений $(date +%Y-%m-%d)"
+            git push
+          fi

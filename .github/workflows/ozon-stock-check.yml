@@ -1,0 +1,45 @@
+name: Проверка остатков на Ozon
+
+on:
+  schedule:
+    # каждые 3 часа
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Забрать репозиторий
+        uses: actions/checkout@v4
+
+      - name: Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Установить зависимости
+        run: pip install requests
+
+      - name: Проверить остатки и предупредить, если что-то закончилось
+        env:
+          OZON_CLIENT_ID: ${{ secrets.OZON_CLIENT_ID }}
+          OZON_API_KEY: ${{ secrets.OZON_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/ozon_stock_alert.py
+
+      - name: Сохранить снимок остатков
+        run: |
+          git config user.name "nucca-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "Изменений нет."
+          else
+            git commit -m "Снимок остатков Ozon $(date +%Y-%m-%d\ %H:%M)"
+            git push
+          fi
