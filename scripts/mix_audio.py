@@ -99,6 +99,12 @@ def main() -> int:
         return 0
 
     for product in queue:
+        if product.get("keep_audio"):
+            # Хозяйка явно попросила не трогать звук в этом видео
+            # (например, в нём и так нет посторонней музыки).
+            print(f"  {product['id']}: keep_audio=true, пропускаю подмешивание")
+            continue
+
         video_path = ROOT / product["video"]
         if not video_path.exists():
             print(f"  {product['id']}: видео не найдено ({video_path}), пропускаю")
