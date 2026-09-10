@@ -17,7 +17,7 @@
   },
   "palantinblack4": {
     "name": "palantinblack4",
-    "present": 1
+    "present": 2
   },
   "gorde1": {
     "name": "gorde1",
@@ -229,7 +229,7 @@
   },
   "LEN-SILVERGREY": {
     "name": "LEN-SILVERGREY",
-    "present": 3
+    "present": 2
   },
   "LEN-DARKBEIGE": {
     "name": "LEN-DARKBEIGE",
@@ -249,6 +249,6 @@
   },
   "LEN-GREY": {
     "name": "LEN-GREY",
-    "present": 2
+    "present": 1
   }
 }
