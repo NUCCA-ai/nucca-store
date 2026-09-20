@@ -105,7 +105,7 @@
   },
   "palantin2darkblue": {
     "name": "palantin2darkblue",
-    "present": 2
+    "present": 1
   },
   "tyedye1rose": {
     "name": "tyedye1rose",
@@ -249,6 +249,6 @@
   },
   "LEN-GREY": {
     "name": "LEN-GREY",
-    "present": 0
+    "present": 1
   }
 }
