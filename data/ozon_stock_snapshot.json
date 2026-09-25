@@ -193,11 +193,11 @@
   },
   "PREMIUM-BROWNGREY": {
     "name": "PREMIUM-BROWNGREY",
-    "present": 0
+    "present": 1
   },
   "PREMIUM-BEIGE": {
     "name": "PREMIUM-BEIGE",
-    "present": 0
+    "present": 1
   },
   "LEN-BLACK1": {
     "name": "LEN-BLACK1",
@@ -205,7 +205,7 @@
   },
   "LEN-BLUE3": {
     "name": "LEN-BLUE3",
-    "present": 3
+    "present": 2
   },
   "LEN-ROSE5": {
     "name": "LEN-ROSE5",
@@ -213,7 +213,7 @@
   },
   "LEN-DARKGREEN": {
     "name": "LEN-DARKGREEN",
-    "present": 2
+    "present": 1
   },
   "LEN-DARKGREY": {
     "name": "LEN-DARKGREY",
