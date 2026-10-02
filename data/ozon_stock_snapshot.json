@@ -21,7 +21,7 @@
   },
   "gorde1": {
     "name": "gorde1",
-    "present": 1
+    "present": 0
   },
   "gorde2": {
     "name": "gorde2",
@@ -217,7 +217,7 @@
   },
   "LEN-DARKGREY": {
     "name": "LEN-DARKGREY",
-    "present": 2
+    "present": 1
   },
   "LEN-COFFEE": {
     "name": "LEN-COFFEE",
