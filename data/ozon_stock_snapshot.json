@@ -57,7 +57,7 @@
   },
   "palantin3darkblue": {
     "name": "palantin3darkblue",
-    "present": 3
+    "present": 0
   },
   "palantin50bolot": {
     "name": "palantin50bolot",
@@ -73,7 +73,7 @@
   },
   "palantin8darkgrey": {
     "name": "palantin8darkgrey",
-    "present": 2
+    "present": 1
   },
   "palantin11greybrown": {
     "name": "palantin11greybrown",
@@ -181,7 +181,7 @@
   },
   "Hijab_1black": {
     "name": "Hijab_1black",
-    "present": 6
+    "present": 5
   },
   "PALAN1WHITE": {
     "name": "PALAN1WHITE",
@@ -205,7 +205,7 @@
   },
   "LEN-BLUE3": {
     "name": "LEN-BLUE3",
-    "present": 0
+    "present": 1
   },
   "LEN-ROSE5": {
     "name": "LEN-ROSE5",
@@ -213,7 +213,7 @@
   },
   "LEN-DARKGREEN": {
     "name": "LEN-DARKGREEN",
-    "present": 1
+    "present": 0
   },
   "LEN-DARKGREY": {
     "name": "LEN-DARKGREY",
@@ -237,18 +237,18 @@
   },
   "LEN-BLUETUMAN": {
     "name": "LEN-BLUETUMAN",
-    "present": 1
+    "present": 0
   },
   "LEN-TAN": {
     "name": "LEN-TAN",
-    "present": 2
+    "present": 1
   },
   "LEN-BEIGE": {
     "name": "LEN-BEIGE",
-    "present": 2
+    "present": 1
   },
   "LEN-GREY": {
     "name": "LEN-GREY",
-    "present": 1
+    "present": 0
   }
 }
