@@ -189,7 +189,7 @@
   },
   "PREMIUM-KHAKI": {
     "name": "PREMIUM-KHAKI",
-    "present": 0
+    "present": 1
   },
   "PREMIUM-BROWNGREY": {
     "name": "PREMIUM-BROWNGREY",
@@ -213,7 +213,7 @@
   },
   "LEN-DARKGREEN": {
     "name": "LEN-DARKGREEN",
-    "present": 1
+    "present": 0
   },
   "LEN-DARKGREY": {
     "name": "LEN-DARKGREY",
@@ -241,7 +241,7 @@
   },
   "LEN-TAN": {
     "name": "LEN-TAN",
-    "present": 2
+    "present": 1
   },
   "LEN-BEIGE": {
     "name": "LEN-BEIGE",
