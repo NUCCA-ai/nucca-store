@@ -213,7 +213,7 @@
   },
   "LEN-DARKGREEN": {
     "name": "LEN-DARKGREEN",
-    "present": 0
+    "present": 1
   },
   "LEN-DARKGREY": {
     "name": "LEN-DARKGREY",
@@ -241,7 +241,7 @@
   },
   "LEN-TAN": {
     "name": "LEN-TAN",
-    "present": 1
+    "present": 2
   },
   "LEN-BEIGE": {
     "name": "LEN-BEIGE",
